@@ -34,6 +34,9 @@ public class Trainer {
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	private List<Dog> dogList;
 	
+	
+	//Order matters when creating the trainers and dogs 
+	// Trainer must exist for a dog to exist [{},{},{}]
 
 	
 	
